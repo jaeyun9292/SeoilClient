@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/xml_baecha"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:label="배차정보">
+    <include
+        layout="@layout/app_bar_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/mok1"  />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/mok_am" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/mok_pm" />
+</LinearLayout>
